@@ -1,8 +1,8 @@
 ---
 author: Brayan Diaz C
-pubDatetime: 2023-06-15T11:22:00Z
-title: "Instala WSL a través de Microsoft Store 🐧"
-postSlug: instalacion-wsl-desde-microsoft-store
+pubDatetime: 2023-06-15T12:22:00Z
+title: "Instala WSL a través de PowerShell 🐧"
+postSlug: instalacion-wsl-desde-powershell
 featured: false
 draft: false
 tags:
@@ -10,12 +10,12 @@ tags:
   - WSL
   - Linux
   - DesarrolloSoftware
-  - MicrosoftStore
+  - PowerShell
 ogImage: ""
-description: Aprende a instalar y usar el Subsistema de Windows para Linux (WSL) a través de la Microsoft Store con este tutorial paso a paso.
+description: Aprende a instalar y usar el Subsistema de Windows para Linux (WSL) a través de PowerShell con este tutorial paso a paso.
 ---
 
-# Instala WSL a través de Microsoft Store 🐧
+# Instala WSL a través de PowerShell 🐧
 
 Los desarrolladores de software a menudo prefieren Linux como su sistema operativo principal. Sin embargo, si usas Windows y quieres tener acceso a un entorno Linux sin tener que recurrir a una máquina virtual o a un arranque dual, **WSL** (Windows Subsystem for Linux) es tu solución.
 
@@ -40,33 +40,33 @@ Existen dos versiones de WSL:
 
 WSL es compatible con Windows 10 (versión 2004 o posterior) y Windows 11. Para verificar tu versión de Windows, abre la configuración de Windows, haz clic en "Sistema" y luego en "Información". En la página "Información", puedes ver la versión de Windows que tienes instalada.
 
-![Verificar versión de Windows](/assets/postContent/instalacion-wsl-desde-microsoft-store/verificar-version-windows.png)
+![Verificar versión de Windows](/assets/postContent/instalacion-wsl-desde-powershell/verificar-version-windows.png)
 
 ## 1. Instalación de WSL 💾
 
-Para instalar WSL, sigue estos pasos:
+La instalación de WSL es sencilla. Sigue estos pasos:
 
-1. Abre la **Microsoft Store** en Windows y busca "WSL". Haz clic en el primer resultado y luego en "Instalar".
-2. Reinicia tu computadora después de la instalación.
+1. Abre PowerShell como administrador.
 
-![Windows store instalar wsl](/assets/postContent/instalacion-wsl-desde-microsoft-store/windows-store-instalar-wsl.png)
+![Abrir PowerShell](/assets/postContent/instalacion-wsl-desde-powershell/powershell.png)
 
-## 2. Instalación de Linux en WSL 🐧
+2. Ejecuta el siguiente comando:
 
-Para instalar un kernel de Linux en WSL, realiza los siguientes pasos:
+```powershell
+wsl --install
+```
 
-1. Abre la **Microsoft Store** en Windows y busca la distribución de Linux de tu preferencia, por ejemplo, "Ubuntu". Haz clic en el primer resultado y luego en "Instalar".
-2. Reinicia tu computadora después de la instalación.
+![Instalar WSL](/assets/postContent/instalacion-wsl-desde-powershell/instalacion-wsl.png)
 
-![Windows store instalar ubuntu](/assets/postContent/instalacion-wsl-desde-microsoft-store/windows-store-instalar-ubuntu.png)
+3. Tu PC te pedirá que reinicies. Una vez reiniciado, WSL estará instalado.
 
-## 3. Configuración de Linux en WSL ⚙️
+## 2. Configuración de Linux en WSL ⚙️
 
 Para configurar Linux en WSL, abre la aplicación Linux que instalaste y sigue las instrucciones en pantalla. Se te pedirá que ingreses un **nombre de usuario** y una **contraseña**.
 
-![Configuración inicial ubuntu](/assets/postContent/instalacion-wsl-desde-microsoft-store/configuracion-inicial-ubuntu.png)
+![Configuración inicial ubuntu](/assets/postContent/instalacion-wsl-desde-powershell/configuracion-inicial-ubuntu.png)
 
-## 4. Instalación de aplicaciones de Linux en Windows 📦
+## 3. Instalación de aplicaciones de Linux en Windows 📦
 
 Ahora que ya tienes WSL y Linux instalados, puedes instalar aplicaciones de Linux en Windows. Para hacerlo, abre la aplicación Linux y ejecuta los siguientes comandos para actualizar el índice de paquetes e instalar la aplicación deseada:
 
@@ -83,3 +83,9 @@ Por ejemplo, para instalar Git, ejecutarías `sudo apt install git`.
 ## Conclusión
 
 Con WSL, los desarrolladores de software que utilizan Windows como su sistema operativo principal pueden disfrutar de las ventajas de ejecutar aplicaciones de Linux sin necesidad de utilizar máquinas virtuales o particiones separadas. WSL brinda la flexibilidad y la facilidad de uso necesarias para llevar a cabo tareas de desarrollo y ejecutar aplicaciones de Linux en el entorno de Windows de manera eficiente.
+
+## Recursos adicionales
+
+- [Documentación oficial de Microsoft sobre WSL](https://docs.microsoft.com/es-es/windows/wsl/)
+- [Guía de instalación de WSL](https://docs.microsoft.com/es-es/windows/wsl/install-win10)
+- [Guía de instalación de WSL 2](https://docs.microsoft.com/es-es/windows/wsl/install-win10#update-to-wsl-2)
