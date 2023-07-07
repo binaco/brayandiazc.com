@@ -21,33 +21,15 @@ export const LOGO_IMAGE = {
 
 export const SOCIALS: SocialObjects = [
   {
-    name: "Github",
-    href: "https://github.com/brayandiazc",
-    linkTitle: ` ${SITE.title} on Github`,
-    active: true,
-  },
-  {
-    name: "Facebook",
-    href: "https://www.facebook.com/brayan.y.cardenas",
-    linkTitle: `${SITE.title} on Facebook`,
-    active: true,
-  },
-  {
-    name: "Instagram",
-    href: "https://www.instagram.com/brayandiaz_c",
-    linkTitle: `${SITE.title} on Instagram`,
-    active: true,
-  },
-  {
     name: "LinkedIn",
     href: "https://www.linkedin.com/in/brayandiazc",
     linkTitle: `${SITE.title} on LinkedIn`,
     active: true,
   },
   {
-    name: "Mail",
-    href: "mailto:brayandiazc@gmail.com",
-    linkTitle: `Send an email to ${SITE.title}`,
+    name: "Github",
+    href: "https://github.com/brayandiazc",
+    linkTitle: ` ${SITE.title} on Github`,
     active: true,
   },
   {
@@ -57,9 +39,15 @@ export const SOCIALS: SocialObjects = [
     active: true,
   },
   {
-    name: "Twitch",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Twitch`,
+    name: "Instagram",
+    href: "https://www.instagram.com/brayandiaz_c",
+    linkTitle: `${SITE.title} on Instagram`,
+    active: true,
+  },
+  {
+    name: "Facebook",
+    href: "https://www.facebook.com/brayan.y.cardenas",
+    linkTitle: `${SITE.title} on Facebook`,
     active: false,
   },
   {
@@ -67,6 +55,18 @@ export const SOCIALS: SocialObjects = [
     href: "https://www.youtube.com/channel/UCC6RSXwrhHFKlCerzm1HTVg",
     linkTitle: `${SITE.title} on YouTube`,
     active: true,
+  },
+  {
+    name: "Mail",
+    href: "mailto:brayandiazc@gmail.com",
+    linkTitle: `Send an email to ${SITE.title}`,
+    active: true,
+  },
+  {
+    name: "Twitch",
+    href: "https://github.com/satnaing/astro-paper",
+    linkTitle: `${SITE.title} on Twitch`,
+    active: false,
   },
   {
     name: "WhatsApp",
