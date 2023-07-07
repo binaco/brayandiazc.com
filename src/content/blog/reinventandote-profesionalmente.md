@@ -6,16 +6,15 @@ postSlug: reinventandote-profesionalmente
 featured: false
 draft: false
 tags:
-  - CambioDeCarrera
+  - Emprendimiento
+  - Motivación
   - DesarrolloProfesional
   - CrecimientoPersonal
-  - Autoevaluación
-
 ogImage: ""
 description: Descubre cómo cambiar tu perfil profesional para impulsar tu carrera. Desde la autoevaluación hasta la aplicación a nuevas oportunidades.
 ---
 
-# Reinventándote Profesionalmente: Una Guía Paso a Paso 💼🔄
+# Reinventándote Profesionalmente: Una Guía Paso a Paso 🔄
 
 ## Introducción
 

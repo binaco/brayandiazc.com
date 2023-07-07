@@ -8,7 +8,7 @@ draft: false
 tags:
   - Emprendimiento
   - Motivación
-  - DesarrolloPersonal
+  - DesarrolloProfesional
   - CrecimientoPersonal
 ogImage: ""
 description: ¡Despierta tu espíritu emprendedor! El primer paso marca la diferencia, iniciar es el primer paso. Si cabe en tu mente, cabe en tu mundo.
