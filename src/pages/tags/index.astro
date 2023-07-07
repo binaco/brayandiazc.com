@@ -13,9 +13,12 @@ const posts = await getCollection("blog");
 let tags = getUniqueTags(posts);
 ---
 
-<Layout title={`Tags | ${SITE.title}`}>
+<Layout title={`Categorias | ${SITE.title}`}>
   <Header activeNav="tags" />
-  <Main pageTitle="Tags" pageDesc="All the tags used in posts.">
+  <Main
+    pageTitle="Categorias"
+    pageDesc="Todas las categorías de las publicaciones"
+  >
     <ul>
       {tags.map(tag => <Tag name={tag} size="lg" />)}
     </ul>
