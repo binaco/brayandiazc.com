@@ -4,7 +4,7 @@ pubDatetime: 2023-06-15T11:22:00Z
 title: "Instala WSL a través de Microsoft Store 🐧"
 postSlug: instalacion-wsl-desde-microsoft-store
 featured: false
-draft: false
+draft: true
 tags:
   - Windows
   - WSL

@@ -4,7 +4,7 @@ pubDatetime: 2023-06-15T14:22:00Z
 title: Guía de Instalación y Configuración de Git 🚀
 postSlug: instalacion-configuracion-git
 featured: false
-draft: false
+draft: true
 tags:
   - Git
   - Instalación

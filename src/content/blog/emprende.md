@@ -1,6 +1,6 @@
 ---
 author: Brayan Diaz C
-pubDatetime: 2023-06-14T16:22:00Z
+pubDatetime: 2023-07-12T16:22:00Z
 title: "Emprende Tu Vida Tu Mejor Proyecto 🚀"
 postSlug: emprende
 featured: false

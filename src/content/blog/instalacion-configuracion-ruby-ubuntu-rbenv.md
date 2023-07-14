@@ -4,7 +4,7 @@ pubDatetime: 2023-06-15T15:22:00Z
 title: Instalación de Ruby en Ubuntu usando rbenv 🚀
 postSlug: instalacion-configuracion-ruby-ubuntu-rbenv
 featured: false
-draft: false
+draft: true
 tags:
   - WSL
   - Ubuntu

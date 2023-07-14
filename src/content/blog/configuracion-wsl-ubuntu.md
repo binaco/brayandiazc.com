@@ -1,10 +1,10 @@
 ---
 author: Brayan Diaz C
-pubDatetime: 2023-06-15T13:22:00Z
+pubDatetime: 2023-07-13T13:22:00Z
 title: "Guía de Configuración de WSL y Ubuntu 🚀"
 postSlug: configuracion-wsl-ubuntu
 featured: false
-draft: false
+draft: true
 tags:
   - WSL
   - Ubuntu
