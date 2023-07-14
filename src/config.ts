@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Brayan Diaz C",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
   title: "Brayan Diaz C",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "brayandiazc.png",
   lightAndDarkMode: true,
   postPerPage: 3,
 };
