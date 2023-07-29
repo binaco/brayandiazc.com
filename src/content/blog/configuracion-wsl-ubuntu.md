@@ -4,7 +4,7 @@ pubDatetime: 2023-07-13T13:22:00Z
 title: "Guía de Configuración de WSL y Ubuntu 🚀"
 postSlug: configuracion-wsl-ubuntu
 featured: false
-draft: true
+draft: false
 tags:
   - WSL
   - Ubuntu

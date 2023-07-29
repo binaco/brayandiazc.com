@@ -1,10 +1,10 @@
 ---
 author: Brayan Diaz C
-pubDatetime: 2023-06-15T10:22:00Z
-title: "Reinventándote Profesionalmente 🔄"
+pubDatetime: 2023-07-26T10:22:00Z
+title: "Reinventándote profesionalmente 🔄"
 postSlug: reinventandote-profesionalmente
 featured: false
-draft: true
+draft: false
 tags:
   - Emprendimiento
   - Motivación

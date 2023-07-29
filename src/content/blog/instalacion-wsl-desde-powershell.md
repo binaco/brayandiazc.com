@@ -4,7 +4,7 @@ pubDatetime: 2023-06-15T12:22:00Z
 title: "Instala WSL a través de PowerShell 🐧"
 postSlug: instalacion-wsl-desde-powershell
 featured: false
-draft: true
+draft: false
 tags:
   - Windows
   - WSL
